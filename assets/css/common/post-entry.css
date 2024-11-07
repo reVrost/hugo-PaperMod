@@ -92,8 +92,19 @@
   font-size: 14px;
   color: var(--secondary);
 }
+.entry-hint {
+  color: var(--secondary);
+}
+
+.entry-hint-parent {
+  display: flex;
+  justify-content: space-between;
+}
 
 .entry-cover {
+  margin-bottom: var(--gap);
+  text-align: center;
+  font-size: 14px;
   margin-bottom: var(--gap);
   text-align: center;
 }
